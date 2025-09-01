@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-16le" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; FontCharSet:ansi!; TextSize:10">
+	<RibbonItems>
+		<Categories>
+			<Category Enabled="true" MenuItemName="m_master" Text="Master" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="User Master" Visible="true">
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_usermaster" PictureName="AccountBig!" PowerTipText="User Master" Text="User Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_stockmaster" PictureName="CheckStatus1!" PowerTipText="Stock Master" Text="Stock Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_analystmaster" PictureName="Custom067a!" PowerTipText="Analyst Master" Text="Analyst Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_currencymaster" PictureName="CurrencyBig!" PowerTipText="Currency Master" Text="Currency Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_investmentlimitmaster" PictureName="Custom048a!" PowerTipText="Investment Limit Master" Text="Investment Limit Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_industrymaster" PictureName="StyleLibraryList!" PowerTipText="Industry Master" Text="Industry Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_competitorsmaster" PictureName="Custom076a!" PowerTipText="Competitors Master" Text="Competitors Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_newsmaster" PictureName="Custom004!" PowerTipText="News Master" Text="News Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_optionsmaster" PictureName="ActionsBig!" PowerTipText="Options Master" Text="Options Master" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_actionsmaster" PictureName="CheckBoxHoverChecked4Blue!" PowerTipText="Actions Master" Text="Actions Master" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Tag="SheetListPanel" Text="SheetList" Visible="false">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" PictureName="RibbonSmallButtonDefault!" PowerTipText="SheetList" Tag="SheetList" Text="SheetList" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_0" Text="Portfolio" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Stock Transactions" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_stocktransactions" PictureName="Compile1!" PowerTipText="Stock Transactions" Text="Stock Transactions" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_portfolio" PictureName="CrossTab1!" PowerTipText="Portfolio Master " Text="Portfolio Master " Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_jonahprofile" PictureName="HRSmall!" PowerTipText="Jonah Profile" Text="Jonah Profile" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_jonahcompare" PictureName="Search1!" PowerTipText="Jonah Compare" Text="Jonah Compare" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_transact" Text="Transact" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="BuySellStocks" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_buysellstocks" PictureName="Custom073a!" PowerTipText="BuySellStocks" Text="BuySellStocks" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_buyselloptions" PictureName="Graph3!" PowerTipText="BuySellOptions" Text="BuySellOptions" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_reseach" Text="Reseach" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Research Outcomes" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_researchoutcomes" PictureName="PaperSizeA1Big!" PowerTipText="Research Outcomes" Text="Research Outcomes" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_reports" Text=" Reports  " Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Stock Transactions" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_stocktransactions0" PictureName="Comment1!" PowerTipText="Stock Transactions" Text="Stock Transactions" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_portfolio0" PictureName="Custom067a!" PowerTipText="Portfolio" Text="Portfolio" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_news" Text="News" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Top News from the Day" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_topnewsfromtheday" PictureName="New!" PowerTipText="Top News from the Day" Text="Top News from the Day" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_pastnewshavingrecentimpact" PictureName="MonthCalendar!" PowerTipText="Past News Having Recent Impact" Text="Past News Having Recent Impact" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_earningssummary" PictureName="CheckStatus1!" PowerTipText="Earnings Summary" Text="Earnings Summary" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_upcomingearnings" PictureName="ApplicationIcon!" PowerTipText="Upcoming Earnings" Text="Upcoming Earnings" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_7" Text="Admin" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Schedule Job" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_8" PictureName="MonthCalendar!" PowerTipText="Schedule Job" Text="Schedule Job" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_9" PictureName="QuickWatch!" PowerTipText="Monitor Jobs" Text="Monitor Jobs" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_10" PictureName="CheckIn3!" PowerTipText="Review Logs" Text="Review Logs" Visible="true"/>
+				</Panel>
+			</Category>
+		</Categories>
+	</RibbonItems>
+</RibbonBar>
